@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.all.json",
+  "include": ["test-jest"],
+  "compilerOptions": {
+    "outDir": "build/test-jest"
+  }
+}

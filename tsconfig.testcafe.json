@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig.all.json",
+    "include": ["test-testcafe"],
+    "compilerOptions": {
+      "types":  ["node"],
+      "outDir": "build/test-testcafe"
+    }
+  }

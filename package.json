@@ -1,0 +1,21 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-testcafe-ts": "testcafe chrome test-testcafe/*.ts",
+    "test-testcafe-js": "testcafe chrome build/test-testcafe/*.js",
+    "compile-all":      "tsc -p tsconfig.all.json",
+    "compile-jest":     "tsc -p tsconfig.jest.json",
+    "compile-testcafe": "tsc -p tsconfig.testcafe.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "testcafe": "^1.1.2",
+    "typescript": "^3.4.3"
+  }
+}
